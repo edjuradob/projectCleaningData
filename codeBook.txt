@@ -1,0 +1,35 @@
+***************************************************
+Tidy Data Set for Human Activity Recognition Using Smartphones
+
+**************************************************
+This Data Set has been cleaned and put toguether from different files from the original data creating this sumarized data set.
+
+It cointains:
+
+subject: The subject who performed the activity (30 subjects, identify by numbers from 1 to 30)
+activity: The activity performed for which was the features measured
+
+The rest of column names contains the features (only means and standard deviations) following the next conventions:
+
+*All names are lowcase
+*names follows the next format:
+	prefixfeature_measure_axis
+	where:
+	preffix: (t or f)
+		*t preffix reffers to time
+		*f prefix reffers to frequency
+	feature (bounded between -1 and 1):
+		the name of the feature measured
+	measure: (mean or standard deviation)
+		*means are suffixed with _mean
+		*standard deviations are suffixed with _std
+	axis (optional): (x, y or z)
+		the coordinate axis of the measurement
+
+Example
+for time of bodyacc mean in coordinate x, the name will be:
+	tbodyacc_mean_x
+	
+
+	
+	
